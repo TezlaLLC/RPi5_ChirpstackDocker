@@ -1,0 +1,6 @@
+2024-08-14 10:45:58.247 WARNING (SyncWorker_0) [homeassistant.util.yaml.loader] YAML file /config/sensors.yaml contains duplicate key "name". Check lines 2 and 6
+2024-08-14 10:45:58.247 WARNING (SyncWorker_0) [homeassistant.util.yaml.loader] YAML file /config/sensors.yaml contains duplicate key "state_topic". Check lines 3 and 7
+2024-08-14 10:45:58.247 WARNING (SyncWorker_0) [homeassistant.util.yaml.loader] YAML file /config/sensors.yaml contains duplicate key "value_template". Check lines 4 and 8
+2024-08-14 10:45:59.933 WARNING (SyncWorker_1) [homeassistant.util.yaml.loader] YAML file /config/sensors.yaml contains duplicate key "name". Check lines 2 and 6
+2024-08-14 10:45:59.933 WARNING (SyncWorker_1) [homeassistant.util.yaml.loader] YAML file /config/sensors.yaml contains duplicate key "state_topic". Check lines 3 and 7
+2024-08-14 10:45:59.933 WARNING (SyncWorker_1) [homeassistant.util.yaml.loader] YAML file /config/sensors.yaml contains duplicate key "value_template". Check lines 4 and 8

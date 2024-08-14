@@ -1,0 +1,10 @@
+# Load all home assistant sensors in here
+
+  name: "steveTemperature"
+  state_topic: "application/c503b6e1-3af6-417f-9628-a58843e7f06d/device/2cf7f120502071a4/event/up"
+  value_template: "{{ value_json.object.temperatureSensor[\"0\"] }}"
+
+  name: "wioTemperature"
+  state_topic: "application/c503b6e1-3af6-417f-9628-a58843e7f06d/device/2cf7f12024900785/event/up"
+  value_template: "{{ value_json.object.temperatureSensor[\"1\"] }}"
+
