@@ -12,7 +12,8 @@ scene: !include scenes.yaml
 
 # Example how to place sensors in their own file
 mqtt:
-  sensor: !include sensors.yaml
+  sensor: !include sensors1.yaml
+#          !include sensors1.yaml
 
 
 

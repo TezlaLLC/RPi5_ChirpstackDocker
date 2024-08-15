@@ -1,0 +1,2 @@
+[integration.mqtt.auth.generic]
+servers=["tcp://${MQTT_BROKER_HOST}:${MQTT_BROKER_VPORT"]
