@@ -1,1 +1,14 @@
-[]
+automation:
+  - alias: "dataRcvd pub to fport 43"
+    trigger:
+      - platform: mqtt
+        topic: 'application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/event/up'
+  - action:
+      - delay: '00:00:04'
+      - service: mqtt.publish
+        data:
+          topic: 'application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down'
+          payload: '{"confirmed":false, "fport": 43, "data": "BBQk"}'
+#          topic: 'application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/event/txack'
+#          payload: '{"dev_eui":"2cf7f120502071a4", "confirmed":false, "fport": 43, "payload": "BBQk"}'
+
