@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "steve_wenner",
+        "name": "Steve Wenner",
+        "user_id": "d6975b2bfd504d8297e16674b0095108",
+        "device_trackers": []
+      }
+    ]
+  }
+}

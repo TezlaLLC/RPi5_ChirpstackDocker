@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.steve_wenner","state":"unknown","attributes":{"editable":true,"id":"steve_wenner","device_trackers":[],"source":"person.steve_wenner","user_id":"d6975b2bfd504d8297e16674b0095108","friendly_name":"Steve Wenner"},"last_changed":"2024-08-23T20:15:17.004618+00:00","last_reported":"2024-08-23T20:15:17.004618+00:00","last_updated":"2024-08-23T20:15:17.004618+00:00","context":{"id":"01J60E220C24W265Y0S1AWZ1Y5","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T20:15:19.815018+00:00"
+    },
+    {
+      "state": {"entity_id":"input_boolean.led_state","state":"off","attributes":{"editable":false,"friendly_name":"LED State"},"last_changed":"2024-08-23T20:15:18.163165+00:00","last_reported":"2024-08-23T20:15:18.163165+00:00","last_updated":"2024-08-23T20:15:18.163165+00:00","context":{"id":"01J60E234K3NV6V4BSWBJAM4AJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T20:15:19.815018+00:00"
+    },
+    {
+      "state": {"entity_id":"input_button.toggle_led","state":"2024-08-23T20:15:01.913593+00:00","attributes":{"editable":false,"friendly_name":"Toggle LED"},"last_changed":"2024-08-23T20:15:18.163394+00:00","last_reported":"2024-08-23T20:15:18.163394+00:00","last_updated":"2024-08-23T20:15:18.163394+00:00","context":{"id":"01J60E234K3JBBSD9K5PVZS4Y0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T20:15:19.815018+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2024-08-23T20:15:18.229982+00:00","last_reported":"2024-08-23T20:15:18.229982+00:00","last_updated":"2024-08-23T20:15:18.229982+00:00","context":{"id":"01J60E236NB6TK0R09M147ZBQS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T20:15:19.815018+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.toggle_led_fport_43","state":"on","attributes":{"last_triggered":"2024-08-23T20:15:01.914089+00:00","mode":"single","current":0,"friendly_name":"Toggle LED -- fport 43"},"last_changed":"2024-08-23T20:15:18.609229+00:00","last_reported":"2024-08-23T20:15:18.609229+00:00","last_updated":"2024-08-23T20:15:18.609229+00:00","context":{"id":"01J60E23JHPNX9HW2H8Y9ZDK4Z","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T20:15:19.815018+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stevetemperature","state":"unknown","attributes":{"friendly_name":"steveTemperature"},"last_changed":"2024-08-23T20:15:19.813268+00:00","last_reported":"2024-08-23T20:15:19.813268+00:00","last_updated":"2024-08-23T20:15:19.813268+00:00","context":{"id":"01J60E24R5JAW1SESXZRHG7YH7","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-23T20:15:19.815018+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.wiotemperature","state":"unknown","attributes":{"friendly_name":"wioTemperature"},"last_changed":"2024-08-23T20:15:19.813523+00:00","last_reported":"2024-08-23T20:15:19.813523+00:00","last_updated":"2024-08-23T20:15:19.813523+00:00","context":{"id":"01J60E24R5EWMFDVG5TKYEFD51","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-08-23T20:15:19.815018+00:00"
+    },
+    {
+      "state": {"entity_id":"input_button.led_on","state":"2024-08-23T17:54:21.461425+00:00","attributes":{"editable":false},"last_changed":"2024-08-23T17:54:21.461490+00:00","last_reported":"2024-08-23T17:54:21.461490+00:00","last_updated":"2024-08-23T17:54:21.461490+00:00","context":{"id":"01J60600MNPQ236CDJ6X7C6E60","parent_id":null,"user_id":"d6975b2bfd504d8297e16674b0095108"}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T20:01:39.135838+00:00"
+    },
+    {
+      "state": {"entity_id":"input_button.led_off","state":"2024-08-23T17:54:41.358284+00:00","attributes":{"editable":false},"last_changed":"2024-08-23T17:54:41.358344+00:00","last_reported":"2024-08-23T17:54:41.358344+00:00","last_updated":"2024-08-23T17:54:41.358344+00:00","context":{"id":"01J6060M2EE2KKRRK2Q78AJ4WK","parent_id":null,"user_id":"d6975b2bfd504d8297e16674b0095108"}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T20:01:39.135838+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.mqtt_publish_on_button_to_fport_43","state":"on","attributes":{"last_triggered":"2024-08-23T17:54:21.462075+00:00","mode":"single","current":0,"friendly_name":"MQTT publish ON Button to fport 43"},"last_changed":"2024-08-23T17:53:56.911301+00:00","last_reported":"2024-08-23T17:54:21.468195+00:00","last_updated":"2024-08-23T17:54:21.468195+00:00","context":{"id":"01J60600MNMFVN2K47D9ASA32P","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T20:01:39.135838+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.mqtt_publish_off_button_to_fport_43","state":"on","attributes":{"last_triggered":"2024-08-23T17:54:41.358806+00:00","mode":"single","current":0,"friendly_name":"MQTT publish OFF Button to fport 43"},"last_changed":"2024-08-23T17:53:56.911547+00:00","last_reported":"2024-08-23T17:54:41.363092+00:00","last_updated":"2024-08-23T17:54:41.363092+00:00","context":{"id":"01J6060M2EMJHS79XEGRC06QVM","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T20:01:39.135838+00:00"
+    },
+    {
+      "state": {"entity_id":"input_button.off_led_button","state":"unknown","attributes":{"editable":false},"last_changed":"2024-08-23T17:00:23.412617+00:00","last_reported":"2024-08-23T17:00:23.412617+00:00","last_updated":"2024-08-23T17:00:23.412617+00:00","context":{"id":"01J602X6FMBTQPBXAJ7P2MSVH6","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T17:19:32.001270+00:00"
+    },
+    {
+      "state": {"entity_id":"input_button.mqtt_pub_button","state":"2024-08-23T14:31:02.967840+00:00","attributes":{"editable":false},"last_changed":"2024-08-23T14:31:02.967905+00:00","last_reported":"2024-08-23T14:31:02.967905+00:00","last_updated":"2024-08-23T14:31:02.967905+00:00","context":{"id":"01J5ZTBR1QYPRNM5TTA1WQ2J1M","parent_id":null,"user_id":"d6975b2bfd504d8297e16674b0095108"}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T17:00:16.686464+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.mqtt_publish_on_button_press_to_fport_43","state":"on","attributes":{"last_triggered":"2024-08-23T14:31:02.968432+00:00","mode":"single","current":0,"friendly_name":"MQTT publish on Button press to fport 43"},"last_changed":"2024-08-23T14:05:37.606601+00:00","last_reported":"2024-08-23T14:31:02.971413+00:00","last_updated":"2024-08-23T14:31:02.971413+00:00","context":{"id":"01J5ZTBR1R3CY0R6GY1KKJ1A3S","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-08-23T17:00:16.686464+00:00"
+    }
+  ]
+}

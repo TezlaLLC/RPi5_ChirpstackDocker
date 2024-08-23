@@ -1,0 +1,1238 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "trace.saved_traces",
+  "data": {
+    "automation.None": [
+      {
+        "extended_dict": {
+          "last_step": "action/1/choose/1/conditions/0/entity_id/0",
+          "run_id": "1f61de96925d811df78047356e57e3b1",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2024-08-23T20:12:16.053410+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of input_button.toggle_led",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-08-23T20:12:16.053516+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.toggle_led_fport_43",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2024-08-23T20:10:38.165949+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Toggle LED -- fport 43"
+                    },
+                    "last_changed": "2024-08-23T20:05:17.375871+00:00",
+                    "last_reported": "2024-08-23T20:10:38.169015+00:00",
+                    "last_updated": "2024-08-23T20:10:38.169015+00:00",
+                    "context": {
+                      "id": "01J60DSHPNMSZAYY67M7Q9G90P",
+                      "parent_id": "01J60DSHPNR4XZEBKTHCJXV6F9",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "input_button.toggle_led",
+                    "from_state": {
+                      "entity_id": "input_button.toggle_led",
+                      "state": "2024-08-23T20:10:38.165451+00:00",
+                      "attributes": {
+                        "editable": false,
+                        "friendly_name": "Toggle LED"
+                      },
+                      "last_changed": "2024-08-23T20:10:38.165513+00:00",
+                      "last_reported": "2024-08-23T20:10:38.165513+00:00",
+                      "last_updated": "2024-08-23T20:10:38.165513+00:00",
+                      "context": {
+                        "id": "01J60DSHPNR4XZEBKTHCJXV6F9",
+                        "parent_id": null,
+                        "user_id": "d6975b2bfd504d8297e16674b0095108"
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "input_button.toggle_led",
+                      "state": "2024-08-23T20:12:16.053045+00:00",
+                      "attributes": {
+                        "editable": false,
+                        "friendly_name": "Toggle LED"
+                      },
+                      "last_changed": "2024-08-23T20:12:16.053105+00:00",
+                      "last_reported": "2024-08-23T20:12:16.053105+00:00",
+                      "last_updated": "2024-08-23T20:12:16.053105+00:00",
+                      "context": {
+                        "id": "01J60DWH9MW7CZNKS8QM88VYZ4",
+                        "parent_id": null,
+                        "user_id": "d6975b2bfd504d8297e16674b0095108"
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of input_button.toggle_led"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2024-08-23T20:12:16.053728+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01J60DWH9N4JM7ENS5GZPDX4FT",
+                    "parent_id": "01J60DWH9MW7CZNKS8QM88VYZ4",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_boolean",
+                    "service": "toggle",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "input_boolean.led_state"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2024-08-23T20:12:16.054193+00:00"
+              }
+            ],
+            "action/1/choose/0": [
+              {
+                "path": "action/1/choose/0",
+                "timestamp": "2024-08-23T20:12:16.054258+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/0/conditions/0": [
+              {
+                "path": "action/1/choose/0/conditions/0",
+                "timestamp": "2024-08-23T20:12:16.054283+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/0/conditions/0/entity_id/0": [
+              {
+                "path": "action/1/choose/0/conditions/0/entity_id/0",
+                "timestamp": "2024-08-23T20:12:16.054305+00:00",
+                "result": {
+                  "result": false,
+                  "state": "off",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/1/choose/1": [
+              {
+                "path": "action/1/choose/1",
+                "timestamp": "2024-08-23T20:12:16.054372+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/1/conditions/0": [
+              {
+                "path": "action/1/choose/1/conditions/0",
+                "timestamp": "2024-08-23T20:12:16.054392+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/1/conditions/0/entity_id/0": [
+              {
+                "path": "action/1/choose/1/conditions/0/entity_id/0",
+                "timestamp": "2024-08-23T20:12:16.054411+00:00",
+                "result": {
+                  "result": false,
+                  "state": "off",
+                  "wanted_state": "oFF"
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Toggle LED -- fport 43",
+            "trigger": {
+              "platform": "state",
+              "entity_id": "input_button.toggle_led"
+            },
+            "action": [
+              {
+                "target": {
+                  "entity_id": "input_boolean.led_state"
+                },
+                "action": "input_boolean.toggle"
+              },
+              {
+                "choose": [
+                  {
+                    "conditions": [
+                      {
+                        "condition": "state",
+                        "entity_id": "input_boolean.led_state",
+                        "state": "on"
+                      }
+                    ],
+                    "sequence": [
+                      {
+                        "data": {
+                          "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                          "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDQ=\"}"
+                        },
+                        "action": "mqtt.publish"
+                      }
+                    ]
+                  },
+                  {
+                    "conditions": [
+                      {
+                        "condition": "state",
+                        "entity_id": "input_boolean.led_state",
+                        "state": "oFF"
+                      }
+                    ],
+                    "sequence": [
+                      {
+                        "data": {
+                          "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                          "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDA=\"}"
+                        },
+                        "action": "mqtt.publish"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01J60DWH9N4JM7ENS5GZPDX4FT",
+            "parent_id": "01J60DWH9MW7CZNKS8QM88VYZ4",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/1/choose/1/conditions/0/entity_id/0",
+          "run_id": "1f61de96925d811df78047356e57e3b1",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2024-08-23T20:12:16.053410+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of input_button.toggle_led"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/1/choose/0/sequence/0",
+          "run_id": "9cb630a9935f48c7c31cf0afc7975eb2",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2024-08-23T20:12:23.638537+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of input_button.toggle_led",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-08-23T20:12:23.638638+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.toggle_led_fport_43",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2024-08-23T20:12:16.053575+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Toggle LED -- fport 43"
+                    },
+                    "last_changed": "2024-08-23T20:05:17.375871+00:00",
+                    "last_reported": "2024-08-23T20:12:16.054488+00:00",
+                    "last_updated": "2024-08-23T20:12:16.054488+00:00",
+                    "context": {
+                      "id": "01J60DWH9N4JM7ENS5GZPDX4FT",
+                      "parent_id": "01J60DWH9MW7CZNKS8QM88VYZ4",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "input_button.toggle_led",
+                    "from_state": {
+                      "entity_id": "input_button.toggle_led",
+                      "state": "2024-08-23T20:12:16.053045+00:00",
+                      "attributes": {
+                        "editable": false,
+                        "friendly_name": "Toggle LED"
+                      },
+                      "last_changed": "2024-08-23T20:12:16.053105+00:00",
+                      "last_reported": "2024-08-23T20:12:16.053105+00:00",
+                      "last_updated": "2024-08-23T20:12:16.053105+00:00",
+                      "context": {
+                        "id": "01J60DWH9MW7CZNKS8QM88VYZ4",
+                        "parent_id": null,
+                        "user_id": "d6975b2bfd504d8297e16674b0095108"
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "input_button.toggle_led",
+                      "state": "2024-08-23T20:12:23.638192+00:00",
+                      "attributes": {
+                        "editable": false,
+                        "friendly_name": "Toggle LED"
+                      },
+                      "last_changed": "2024-08-23T20:12:23.638255+00:00",
+                      "last_reported": "2024-08-23T20:12:23.638255+00:00",
+                      "last_updated": "2024-08-23T20:12:23.638255+00:00",
+                      "context": {
+                        "id": "01J60DWRPNE3BAY1TW8F81K1T1",
+                        "parent_id": null,
+                        "user_id": "d6975b2bfd504d8297e16674b0095108"
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of input_button.toggle_led"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2024-08-23T20:12:23.638839+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01J60DWRPP5XMF3YSR0BYSNFA0",
+                    "parent_id": "01J60DWRPNE3BAY1TW8F81K1T1",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_boolean",
+                    "service": "toggle",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "input_boolean.led_state"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2024-08-23T20:12:23.639290+00:00",
+                "result": {
+                  "choice": 0
+                }
+              }
+            ],
+            "action/1/choose/0": [
+              {
+                "path": "action/1/choose/0",
+                "timestamp": "2024-08-23T20:12:23.639377+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "action/1/choose/0/conditions/0": [
+              {
+                "path": "action/1/choose/0/conditions/0",
+                "timestamp": "2024-08-23T20:12:23.639411+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "action/1/choose/0/conditions/0/entity_id/0": [
+              {
+                "path": "action/1/choose/0/conditions/0/entity_id/0",
+                "timestamp": "2024-08-23T20:12:23.639435+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/1/choose/0/sequence/0": [
+              {
+                "path": "action/1/choose/0/sequence/0",
+                "timestamp": "2024-08-23T20:12:23.639589+00:00",
+                "result": {
+                  "params": {
+                    "domain": "mqtt",
+                    "service": "publish",
+                    "service_data": {
+                      "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                      "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDQ=\"}"
+                    },
+                    "target": {}
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Toggle LED -- fport 43",
+            "trigger": {
+              "platform": "state",
+              "entity_id": "input_button.toggle_led"
+            },
+            "action": [
+              {
+                "target": {
+                  "entity_id": "input_boolean.led_state"
+                },
+                "action": "input_boolean.toggle"
+              },
+              {
+                "choose": [
+                  {
+                    "conditions": [
+                      {
+                        "condition": "state",
+                        "entity_id": "input_boolean.led_state",
+                        "state": "on"
+                      }
+                    ],
+                    "sequence": [
+                      {
+                        "data": {
+                          "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                          "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDQ=\"}"
+                        },
+                        "action": "mqtt.publish"
+                      }
+                    ]
+                  },
+                  {
+                    "conditions": [
+                      {
+                        "condition": "state",
+                        "entity_id": "input_boolean.led_state",
+                        "state": "oFF"
+                      }
+                    ],
+                    "sequence": [
+                      {
+                        "data": {
+                          "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                          "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDA=\"}"
+                        },
+                        "action": "mqtt.publish"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01J60DWRPP5XMF3YSR0BYSNFA0",
+            "parent_id": "01J60DWRPNE3BAY1TW8F81K1T1",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/1/choose/0/sequence/0",
+          "run_id": "9cb630a9935f48c7c31cf0afc7975eb2",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2024-08-23T20:12:23.638537+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of input_button.toggle_led"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/1/choose/1/conditions/0/entity_id/0",
+          "run_id": "3e72305e72f291852ec089847b390652",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2024-08-23T20:12:36.725779+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of input_button.toggle_led",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-08-23T20:12:36.725883+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.toggle_led_fport_43",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2024-08-23T20:12:23.638696+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Toggle LED -- fport 43"
+                    },
+                    "last_changed": "2024-08-23T20:05:17.375871+00:00",
+                    "last_reported": "2024-08-23T20:12:23.642438+00:00",
+                    "last_updated": "2024-08-23T20:12:23.642438+00:00",
+                    "context": {
+                      "id": "01J60DWRPP5XMF3YSR0BYSNFA0",
+                      "parent_id": "01J60DWRPNE3BAY1TW8F81K1T1",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "input_button.toggle_led",
+                    "from_state": {
+                      "entity_id": "input_button.toggle_led",
+                      "state": "2024-08-23T20:12:23.638192+00:00",
+                      "attributes": {
+                        "editable": false,
+                        "friendly_name": "Toggle LED"
+                      },
+                      "last_changed": "2024-08-23T20:12:23.638255+00:00",
+                      "last_reported": "2024-08-23T20:12:23.638255+00:00",
+                      "last_updated": "2024-08-23T20:12:23.638255+00:00",
+                      "context": {
+                        "id": "01J60DWRPNE3BAY1TW8F81K1T1",
+                        "parent_id": null,
+                        "user_id": "d6975b2bfd504d8297e16674b0095108"
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "input_button.toggle_led",
+                      "state": "2024-08-23T20:12:36.725404+00:00",
+                      "attributes": {
+                        "editable": false,
+                        "friendly_name": "Toggle LED"
+                      },
+                      "last_changed": "2024-08-23T20:12:36.725464+00:00",
+                      "last_reported": "2024-08-23T20:14:41.114351+00:00",
+                      "last_updated": "2024-08-23T20:12:36.725464+00:00",
+                      "context": {
+                        "id": "01J60DX5FNBX9MVYHYN5KP8332",
+                        "parent_id": null,
+                        "user_id": "d6975b2bfd504d8297e16674b0095108"
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of input_button.toggle_led"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2024-08-23T20:12:36.726126+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01J60DX5FNEZYMXKHBGFAQQA72",
+                    "parent_id": "01J60DX5FNBX9MVYHYN5KP8332",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_boolean",
+                    "service": "toggle",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "input_boolean.led_state"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2024-08-23T20:12:36.727228+00:00"
+              }
+            ],
+            "action/1/choose/0": [
+              {
+                "path": "action/1/choose/0",
+                "timestamp": "2024-08-23T20:12:36.727303+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/0/conditions/0": [
+              {
+                "path": "action/1/choose/0/conditions/0",
+                "timestamp": "2024-08-23T20:12:36.727329+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/0/conditions/0/entity_id/0": [
+              {
+                "path": "action/1/choose/0/conditions/0/entity_id/0",
+                "timestamp": "2024-08-23T20:12:36.727372+00:00",
+                "result": {
+                  "result": false,
+                  "state": "off",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/1/choose/1": [
+              {
+                "path": "action/1/choose/1",
+                "timestamp": "2024-08-23T20:12:36.727458+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/1/conditions/0": [
+              {
+                "path": "action/1/choose/1/conditions/0",
+                "timestamp": "2024-08-23T20:12:36.727480+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/1/conditions/0/entity_id/0": [
+              {
+                "path": "action/1/choose/1/conditions/0/entity_id/0",
+                "timestamp": "2024-08-23T20:12:36.727500+00:00",
+                "result": {
+                  "result": false,
+                  "state": "off",
+                  "wanted_state": "oFF"
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Toggle LED -- fport 43",
+            "trigger": {
+              "platform": "state",
+              "entity_id": "input_button.toggle_led"
+            },
+            "action": [
+              {
+                "target": {
+                  "entity_id": "input_boolean.led_state"
+                },
+                "action": "input_boolean.toggle"
+              },
+              {
+                "choose": [
+                  {
+                    "conditions": [
+                      {
+                        "condition": "state",
+                        "entity_id": "input_boolean.led_state",
+                        "state": "on"
+                      }
+                    ],
+                    "sequence": [
+                      {
+                        "data": {
+                          "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                          "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDQ=\"}"
+                        },
+                        "action": "mqtt.publish"
+                      }
+                    ]
+                  },
+                  {
+                    "conditions": [
+                      {
+                        "condition": "state",
+                        "entity_id": "input_boolean.led_state",
+                        "state": "oFF"
+                      }
+                    ],
+                    "sequence": [
+                      {
+                        "data": {
+                          "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                          "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDA=\"}"
+                        },
+                        "action": "mqtt.publish"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01J60DX5FNEZYMXKHBGFAQQA72",
+            "parent_id": "01J60DX5FNBX9MVYHYN5KP8332",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/1/choose/1/conditions/0/entity_id/0",
+          "run_id": "3e72305e72f291852ec089847b390652",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2024-08-23T20:12:36.725779+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of input_button.toggle_led"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/1/choose/0/sequence/0",
+          "run_id": "b361efe0e6c2ac88a55ae17fa8017d04",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2024-08-23T20:14:51.940776+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of input_button.toggle_led",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-08-23T20:14:51.940876+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.toggle_led_fport_43",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2024-08-23T20:12:36.725945+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Toggle LED -- fport 43"
+                    },
+                    "last_changed": "2024-08-23T20:05:17.375871+00:00",
+                    "last_reported": "2024-08-23T20:12:36.727588+00:00",
+                    "last_updated": "2024-08-23T20:12:36.727588+00:00",
+                    "context": {
+                      "id": "01J60DX5FNEZYMXKHBGFAQQA72",
+                      "parent_id": "01J60DX5FNBX9MVYHYN5KP8332",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "input_button.toggle_led",
+                    "from_state": {
+                      "entity_id": "input_button.toggle_led",
+                      "state": "2024-08-23T20:12:36.725404+00:00",
+                      "attributes": {
+                        "editable": false,
+                        "friendly_name": "Toggle LED"
+                      },
+                      "last_changed": "2024-08-23T20:12:36.725464+00:00",
+                      "last_reported": "2024-08-23T20:14:41.114351+00:00",
+                      "last_updated": "2024-08-23T20:12:36.725464+00:00",
+                      "context": {
+                        "id": "01J60DX5FNBX9MVYHYN5KP8332",
+                        "parent_id": null,
+                        "user_id": "d6975b2bfd504d8297e16674b0095108"
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "input_button.toggle_led",
+                      "state": "2024-08-23T20:14:51.940413+00:00",
+                      "attributes": {
+                        "editable": false,
+                        "friendly_name": "Toggle LED"
+                      },
+                      "last_changed": "2024-08-23T20:14:51.940473+00:00",
+                      "last_reported": "2024-08-23T20:14:51.940473+00:00",
+                      "last_updated": "2024-08-23T20:14:51.940473+00:00",
+                      "context": {
+                        "id": "01J60E19H4Q5QW3PB53KVXSEK3",
+                        "parent_id": null,
+                        "user_id": "d6975b2bfd504d8297e16674b0095108"
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of input_button.toggle_led"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2024-08-23T20:14:51.941080+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01J60E19H4C5NZQ0109CDRPSYD",
+                    "parent_id": "01J60E19H4Q5QW3PB53KVXSEK3",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_boolean",
+                    "service": "toggle",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "input_boolean.led_state"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2024-08-23T20:14:51.941540+00:00",
+                "result": {
+                  "choice": 0
+                }
+              }
+            ],
+            "action/1/choose/0": [
+              {
+                "path": "action/1/choose/0",
+                "timestamp": "2024-08-23T20:14:51.941603+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "action/1/choose/0/conditions/0": [
+              {
+                "path": "action/1/choose/0/conditions/0",
+                "timestamp": "2024-08-23T20:14:51.941627+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "action/1/choose/0/conditions/0/entity_id/0": [
+              {
+                "path": "action/1/choose/0/conditions/0/entity_id/0",
+                "timestamp": "2024-08-23T20:14:51.941650+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/1/choose/0/sequence/0": [
+              {
+                "path": "action/1/choose/0/sequence/0",
+                "timestamp": "2024-08-23T20:14:51.941784+00:00",
+                "result": {
+                  "params": {
+                    "domain": "mqtt",
+                    "service": "publish",
+                    "service_data": {
+                      "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                      "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDQ=\"}"
+                    },
+                    "target": {}
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Toggle LED -- fport 43",
+            "trigger": {
+              "platform": "state",
+              "entity_id": "input_button.toggle_led"
+            },
+            "action": [
+              {
+                "target": {
+                  "entity_id": "input_boolean.led_state"
+                },
+                "action": "input_boolean.toggle"
+              },
+              {
+                "choose": [
+                  {
+                    "conditions": [
+                      {
+                        "condition": "state",
+                        "entity_id": "input_boolean.led_state",
+                        "state": "on"
+                      }
+                    ],
+                    "sequence": [
+                      {
+                        "data": {
+                          "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                          "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDQ=\"}"
+                        },
+                        "action": "mqtt.publish"
+                      }
+                    ]
+                  },
+                  {
+                    "conditions": [
+                      {
+                        "condition": "state",
+                        "entity_id": "input_boolean.led_state",
+                        "state": "oFF"
+                      }
+                    ],
+                    "sequence": [
+                      {
+                        "data": {
+                          "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                          "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDA=\"}"
+                        },
+                        "action": "mqtt.publish"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01J60E19H4C5NZQ0109CDRPSYD",
+            "parent_id": "01J60E19H4Q5QW3PB53KVXSEK3",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/1/choose/0/sequence/0",
+          "run_id": "b361efe0e6c2ac88a55ae17fa8017d04",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2024-08-23T20:14:51.940776+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of input_button.toggle_led"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/1/choose/1/conditions/0/entity_id/0",
+          "run_id": "eaaf81aa439c70c043351455a2363dca",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2024-08-23T20:15:01.913932+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of input_button.toggle_led",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2024-08-23T20:15:01.914030+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.toggle_led_fport_43",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2024-08-23T20:14:51.940935+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Toggle LED -- fport 43"
+                    },
+                    "last_changed": "2024-08-23T20:05:17.375871+00:00",
+                    "last_reported": "2024-08-23T20:14:51.944115+00:00",
+                    "last_updated": "2024-08-23T20:14:51.944115+00:00",
+                    "context": {
+                      "id": "01J60E19H4C5NZQ0109CDRPSYD",
+                      "parent_id": "01J60E19H4Q5QW3PB53KVXSEK3",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "input_button.toggle_led",
+                    "from_state": {
+                      "entity_id": "input_button.toggle_led",
+                      "state": "2024-08-23T20:14:51.940413+00:00",
+                      "attributes": {
+                        "editable": false,
+                        "friendly_name": "Toggle LED"
+                      },
+                      "last_changed": "2024-08-23T20:14:51.940473+00:00",
+                      "last_reported": "2024-08-23T20:14:51.940473+00:00",
+                      "last_updated": "2024-08-23T20:14:51.940473+00:00",
+                      "context": {
+                        "id": "01J60E19H4Q5QW3PB53KVXSEK3",
+                        "parent_id": null,
+                        "user_id": "d6975b2bfd504d8297e16674b0095108"
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "input_button.toggle_led",
+                      "state": "2024-08-23T20:15:01.913593+00:00",
+                      "attributes": {
+                        "editable": false,
+                        "friendly_name": "Toggle LED"
+                      },
+                      "last_changed": "2024-08-23T20:15:01.913651+00:00",
+                      "last_reported": "2024-08-23T20:15:01.913651+00:00",
+                      "last_updated": "2024-08-23T20:15:01.913651+00:00",
+                      "context": {
+                        "id": "01J60E1K8SPGJGXX3RNAG6MVAA",
+                        "parent_id": null,
+                        "user_id": "d6975b2bfd504d8297e16674b0095108"
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of input_button.toggle_led"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2024-08-23T20:15:01.914232+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01J60E1K8S00TVBT5K8RB4269V",
+                    "parent_id": "01J60E1K8SPGJGXX3RNAG6MVAA",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_boolean",
+                    "service": "toggle",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "input_boolean.led_state"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2024-08-23T20:15:01.914686+00:00"
+              }
+            ],
+            "action/1/choose/0": [
+              {
+                "path": "action/1/choose/0",
+                "timestamp": "2024-08-23T20:15:01.914749+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/0/conditions/0": [
+              {
+                "path": "action/1/choose/0/conditions/0",
+                "timestamp": "2024-08-23T20:15:01.914774+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/0/conditions/0/entity_id/0": [
+              {
+                "path": "action/1/choose/0/conditions/0/entity_id/0",
+                "timestamp": "2024-08-23T20:15:01.914797+00:00",
+                "result": {
+                  "result": false,
+                  "state": "off",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/1/choose/1": [
+              {
+                "path": "action/1/choose/1",
+                "timestamp": "2024-08-23T20:15:01.914864+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/1/conditions/0": [
+              {
+                "path": "action/1/choose/1/conditions/0",
+                "timestamp": "2024-08-23T20:15:01.914884+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/1/choose/1/conditions/0/entity_id/0": [
+              {
+                "path": "action/1/choose/1/conditions/0/entity_id/0",
+                "timestamp": "2024-08-23T20:15:01.914903+00:00",
+                "result": {
+                  "result": false,
+                  "state": "off",
+                  "wanted_state": "oFF"
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Toggle LED -- fport 43",
+            "trigger": {
+              "platform": "state",
+              "entity_id": "input_button.toggle_led"
+            },
+            "action": [
+              {
+                "target": {
+                  "entity_id": "input_boolean.led_state"
+                },
+                "action": "input_boolean.toggle"
+              },
+              {
+                "choose": [
+                  {
+                    "conditions": [
+                      {
+                        "condition": "state",
+                        "entity_id": "input_boolean.led_state",
+                        "state": "on"
+                      }
+                    ],
+                    "sequence": [
+                      {
+                        "data": {
+                          "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                          "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDQ=\"}"
+                        },
+                        "action": "mqtt.publish"
+                      }
+                    ]
+                  },
+                  {
+                    "conditions": [
+                      {
+                        "condition": "state",
+                        "entity_id": "input_boolean.led_state",
+                        "state": "oFF"
+                      }
+                    ],
+                    "sequence": [
+                      {
+                        "data": {
+                          "topic": "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down",
+                          "payload": "{\"devEui\":\"2cf7f120502071a4\", \"confirmed\":false, \"fPort\": 43, \"data\": \"NDA=\"}"
+                        },
+                        "action": "mqtt.publish"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01J60E1K8S00TVBT5K8RB4269V",
+            "parent_id": "01J60E1K8SPGJGXX3RNAG6MVAA",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/1/choose/1/conditions/0/entity_id/0",
+          "run_id": "eaaf81aa439c70c043351455a2363dca",
+          "state": "running",
+          "script_execution": null,
+          "timestamp": {
+            "start": "2024-08-23T20:15:01.913932+00:00",
+            "finish": null
+          },
+          "domain": "automation",
+          "item_id": "None",
+          "trigger": "state of input_button.toggle_led"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_homesensors",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "type": "gauge",
+              "entity": "sensor.wiotemperature",
+              "unit": "F",
+              "name": "DevBoard"
+            },
+            {
+              "type": "gauge",
+              "entity": "sensor.stevetemperature",
+              "unit": "F",
+              "name": "TezlaPCB"
+            },
+            {
+              "show_name": true,
+              "show_icon": true,
+              "type": "button",
+              "tap_action": {
+                "action": "toggle"
+              },
+              "entity": "input_button.toggle_led",
+              "name": "Tezla LED test",
+              "icon": "mdi:led-outline"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

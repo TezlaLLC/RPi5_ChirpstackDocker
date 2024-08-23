@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "path": "default_view",
+          "title": "4091R350WMPA",
+          "cards": [],
+          "icon": "mdi:account",
+          "badges": [
+            {
+              "type": "entity",
+              "entity": "sensor.wiotemperature",
+              "name": "HomeTemp",
+              "icon": "mdi:temperature-celsius",
+              "color": "red",
+              "state_content": [
+                "name",
+                "state"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

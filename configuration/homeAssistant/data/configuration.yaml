@@ -15,6 +15,10 @@ mqtt:
   sensor: !include sensors.yaml
 
 # Example push button
+input_boolean:
+  led_state:
+    name: LED State
+    initial: off
 input_button:
-  led_on:
-  led_off:
+  toggle_led:
+    name: Toggle LED

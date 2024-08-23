@@ -1,19 +1,27 @@
-- alias: "MQTT publish ON Button to fport 43"
+- alias: "Toggle LED -- fport 43"
   trigger:
-    - platform: state
-      entity_id: input_button.led_on
+    platform: state
+    entity_id: input_button.toggle_led
   action:
-    - service: mqtt.publish
-      data:
-        topic: 'application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down'
-        payload: '{"devEui":"2cf7f120502071a4", "confirmed":false, "fPort": 43, "data": "NDQ="}'
-
-- alias: "MQTT publish OFF Button to fport 43"
-  trigger:
-    - platform: state
-      entity_id: input_button.led_off
-  action:
-    - service: mqtt.publish
-      data:
-        topic: 'application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down'
-        payload: '{"devEui":"2cf7f120502071a4", "confirmed":false, "fPort": 43, "data": "NDA="}'
+    - service: input_boolean.toggle
+      target:
+        entity_id: input_boolean.led_state
+    - choose:
+        - conditions:
+            - condition: state
+              entity_id: input_boolean.led_state
+              state: "on"
+          sequence:
+            - service: mqtt.publish
+              data:
+                topic: 'application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down'
+                payload: '{"devEui":"2cf7f120502071a4", "confirmed":false, "fPort": 43, "data": "NDQ="}'
+        - conditions:
+            - condition: state
+              entity_id: input_boolean.led_state
+              state: "off"
+          sequence:
+            - service: mqtt.publish
+              data:
+                topic: 'application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down'
+                payload: '{"devEui":"2cf7f120502071a4", "confirmed":false, "fPort": 43, "data": "NDA="}'

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.map",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "type": "panel",
+          "title": "Map",
+          "icon": "mdi:map",
+          "cards": [
+            {
+              "type": "map",
+              "auto_fit": true,
+              "entities": [
+                "zone.home"
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.wiotemperature",
+                  "name": "Wio Sensor",
+                  "icon": "mdi:temperature-celsius",
+                  "secondary_info": "last-updated"
+                }
+              ],
+              "title": "Temperature"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
