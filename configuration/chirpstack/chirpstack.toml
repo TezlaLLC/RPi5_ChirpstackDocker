@@ -91,3 +91,5 @@
   [integration.mqtt]
     server="tcp://$MQTT_BROKER_HOST:$MQTT_BROKER_VPORT/"
     json=true
+    downlink_topic="application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down"
+#    downlink_topic="application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/event/txack"

@@ -14,3 +14,7 @@ scene: !include scenes.yaml
 mqtt:
   sensor: !include sensors.yaml
 
+# Example push button
+input_button:
+  led_on:
+  led_off:
