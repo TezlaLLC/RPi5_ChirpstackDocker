@@ -1,0 +1,10 @@
+- name: "Tezla LED Icon"
+  state: "{{ states('input_number.mqtt_state') }}"
+  icon: >
+    {% if states('input_number.mqtt_state') | float == 4.0 %}
+      mdi:led-on
+    {% elif states('input_number.mqtt_state') | float == 0.0 %}
+      mdi:led-off
+    {% else %}
+      mdi:led-outline
+    {% endif %}

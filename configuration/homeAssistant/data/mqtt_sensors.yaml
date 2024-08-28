@@ -1,0 +1,6 @@
+- name: "steveTemperature"
+  state_topic: "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/event/up"
+  value_template: "{{ value_json.object.temperatureSensor['0']|float*9/5 + 32 }}"
+- name: "wioTemperature"
+  state_topic: "application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f12024900785/event/up"
+  value_template: "{{ value_json.object.temperatureSensor['1']|float*9/5 + 32 }}"
