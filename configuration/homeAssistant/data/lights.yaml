@@ -1,0 +1,21 @@
+- platform: template
+  lights:
+    led_color:
+      friendly_name: "LED Control and Color"
+      value_template:  >
+        {% if is_state('input_boolean.led_control', 'on') %}
+          on
+        {% else %}
+          off
+        {% endif %}
+      turn_on:
+        service: mqtt.publish
+        data:
+          topic: 'application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down'
+          payload: '{"devEui":"2cf7f120502071a4", "confirmed":false, "fPort": 43, "data": "NDQ="}'
+      turn_off:
+        service: mqtt.publish
+        data:
+          topic: 'application/bc702884-d7c2-46a9-813e-681b313b18ba/device/2cf7f120502071a4/command/down'
+          payload: '{"devEui":"2cf7f120502071a4", "confirmed":false, "fPort": 43, "data": "NDA="}'
+
